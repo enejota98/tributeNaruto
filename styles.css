@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #302F36;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.t-timeline {
+    list-style: none;
+}
+.t-timeline > li {
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.t-timeline-date {
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+}
+.t-timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 10px;
+}
+.t-timeline-content p {
+    line-height: 1.6;
+}
+.t-timeline-content::before {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    background-color: #F29E56;
+    position: absolute;
+    left: 165px;
+    top: 24px;
+    border-radius: 100%;
+}
